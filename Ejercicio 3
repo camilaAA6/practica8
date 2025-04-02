@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int filas=4;
+    for (int i=1;i<=filas;i++){
+        for(int k=1;k<=i;k++){
+            printf("*");
+        } printf("\n");
+    }
+    return 0;
+}
